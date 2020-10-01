@@ -2,6 +2,7 @@ from setuptools import setup
 
 OPTIONS = {
     'argv_emulation': True,
+    'iconfile':'assets/app_icon.icns',
     'plist': {
         'LSUIElement': True,
     },
