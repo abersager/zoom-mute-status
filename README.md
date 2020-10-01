@@ -17,6 +17,8 @@ mv dist/Zoom\ Mute\ Status.app /Applications/
 
 ## Acknowledgements
 
+Built using [rumps](https://github.com/jaredks/rumps).
+
 Icons courtesy of Ziyad Al junaidi via Noun Project:
-https://thenounproject.com/search/?q=microphone&i=3530293
-https://thenounproject.com/search/?q=microphone&i=3530319
+- https://thenounproject.com/search/?q=microphone&i=3530293
+- https://thenounproject.com/search/?q=microphone&i=3530319
