@@ -11,7 +11,9 @@ OPTIONS = {
 setup(
     app=['zoom-mute-status.py'],
     name="Zoom Mute Status",
-    data_files=[],
+    data_files=[
+        ('assets', ['assets/muted.png', 'assets/unmuted.png'])
+    ],
     options={'py2app': OPTIONS},
     setup_requires=['py2app'],
 )

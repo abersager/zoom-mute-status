@@ -1,9 +1,12 @@
 import rumps
 import subprocess
 import sys
+import os
 
-icon_muted = "assets/muted.png"
-icon_unmuted = "assets/unmuted.png"
+base_path = os.path.dirname(os.path.abspath(__file__))
+
+icon_muted = base_path + "/assets/muted.png"
+icon_unmuted = base_path + "/assets/unmuted.png"
 
 script = '''property btnTitle : "Mute audio"
 
