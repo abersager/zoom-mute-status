@@ -5,6 +5,7 @@ OPTIONS = {
     'iconfile':'assets/app_icon.icns',
     'plist': {
         'LSUIElement': True,
+        'CFBundleShortVersionString':'0.1.0',
     },
     'packages': ['rumps'],
 }
