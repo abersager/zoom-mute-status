@@ -2,8 +2,8 @@ import rumps
 import subprocess
 import sys
 
-icon_muted = "/Users/spindleroliver/opensource/zoom-mute-status/off.png"
-icon_unmuted = "/Users/spindleroliver/opensource/zoom-mute-status/on.png"
+icon_muted = "assets/muted.png"
+icon_unmuted = "assets/unmuted.png"
 
 script = '''property btnTitle : "Mute audio"
 
