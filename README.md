@@ -12,7 +12,12 @@ Zoom Mute Status adds another icon to the status menus section, which indicates 
 ```
 ./install-dependencies.sh
 ./build.sh
+
+# Install locally:
 mv dist/Zoom\ Mute\ Status.app /Applications/
+
+# or build a .dmg for distribution:
+./create-dmg.sh
 ```
 
 ## Acknowledgements
